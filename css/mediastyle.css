@@ -1,0 +1,63 @@
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+    }
+    @-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+    }
+    @media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+    }
+    @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+    }
+    @media screen and (max-width: 768px) {
+        .col-sm-4 {
+          text-align: center;
+          margin: 25px 0;
+        }
+        .btn-lg {
+          width: 100%;
+          margin-bottom: 35px;
+        }
+        .jumbotron {
+          background: linear-gradient(to bottom, blue 50%, #ffcccc 100%);
+          color: yellow;
+          padding: 100px 25px;
+          font-family: Montserrat, sans-serif;
+          
+        }
+        .col-xs-3{
+          width: 10%;
+        }
+        .col-xs-6{
+          width: 100%;
+        }
+        h1:hover {
+            color:lime;
+        }
+      }
+      
+    
